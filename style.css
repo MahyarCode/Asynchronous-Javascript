@@ -66,6 +66,8 @@ body {
 .country__img {
   width: 30rem;
   height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
   object-fit: cover;
   background-color: #eee;
   border-top-left-radius: 0.7rem;
@@ -123,4 +125,19 @@ body {
   margin: 2rem;
   border: 3rem solid white;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+img {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.layer1 {
+  z-index: 10;
+}
+.layer2 {
+  z-index: 20;
+}
+.layer3 {
+  z-index: 1p;
 }
