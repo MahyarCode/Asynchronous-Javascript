@@ -41,31 +41,6 @@ const wait = function (seconds) {
     });
 };
 
-// const loadNPause = async function () {
-//     try {
-//         // Load Image 1
-//         let img = await renderImg('img/img-1.jpg');
-//         console.log('image 1 loaded');
-//         await wait(1.5);
-//         img.style.display = 'none';
-
-//         // Load Image 2
-//         img = await renderImg('img/img-2.jpg');
-//         console.log('image 2 loaded');
-//         await wait(1.5);
-//         img.style.display = 'none';
-
-//         // Load Image 3
-//         img = await renderImg('img/img-3.jpg');
-//         console.log('image 3 loaded');
-//         await wait(1.5);
-//         img.style.display = 'none';
-//     } catch (error) {
-//         console.error(`❌${error.message}❌`);
-//     }
-// };
-// loadNPause();
-
 // Part 2
 const loadAll = async function (imgArr) {
     try {
