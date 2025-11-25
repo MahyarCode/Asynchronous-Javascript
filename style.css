@@ -39,10 +39,11 @@ body {
   background-color: #fff;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
   font-size: 1.8rem;
-  width: 30rem;
+  width: 40rem;
   border-radius: 0.7rem;
   margin: 0 3rem;
   /* overflow: hidden; */
+  
 }
 
 .neighbour::before {
@@ -64,8 +65,11 @@ body {
 }
 
 .country__img {
-  width: 30rem;
-  height: 30rem;
+  display:flex;
+  position:relative;
+  align-items: center;
+  width: 40%;
+  height: 30%;
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
@@ -147,7 +151,7 @@ img {
 /* From Uiverse.io by StealthWorm */ 
 .btn {
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   font-size: 25px;
   align-items: center;
   justify-content: center;

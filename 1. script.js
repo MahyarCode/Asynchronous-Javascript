@@ -1,6 +1,6 @@
 'use strict';
 import { authKey } from './API-KEY.js';
-const btn = document.querySelector('.btn-country');
+const btn = document.querySelector('.btn');
 const countriesContainer = document.querySelector('.countries');
 
 ////////////////////////////////////////////////////////////

@@ -1,6 +1,6 @@
 'use strict';
 
-const btn = document.querySelector('.btn-country');
+const btn = document.querySelector('.btn');
 const countriesContainer = document.querySelector('.countries');
 
 // NEW COUNTRIES API URL (use instead of the URL shown in videos):
@@ -42,6 +42,7 @@ const getCountryDataAndNeighbour = function (country) {
     getJSON(`https://restcountries.com/v2/name/${country}`, 'Country Not Found')
         .then(data => {
             renderCountryInHTML(data[0]);
+            console.log(data[0]);
             const neighbour = data[0]?.borders?.[0];
             return getJSON(
                 `https://restcountries.com/v2/alpha/${neighbour}`,
@@ -53,5 +54,5 @@ const getCountryDataAndNeighbour = function (country) {
 };
 
 btn.addEventListener('click', function () {
-    getCountryDataAndNeighbour('Australia');
+    getCountryDataAndNeighbour('Iran');
 });

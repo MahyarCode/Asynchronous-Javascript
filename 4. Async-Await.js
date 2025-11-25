@@ -1,6 +1,6 @@
 'use strict';
 
-const btn = document.querySelector('.btn-country');
+const btn = document.querySelector('.btn');
 const countriesContainer = document.querySelector('.countries');
 
 //todo async await for rendering a specific country
